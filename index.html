@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grêmio Mania</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="cabecalho">
+        <div class="container">
+            <h1 class="navbar-brand m-0 section-title">Grêmio Mania</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
+            <ul a class="nav nav-pills d-block d-md-flex">
+                <li class="nav-item fw-bold">
+                    <a href="#sobre-o-gremio" class="nav-link ">
+                        <i class="bi bi-house-door me-1"></i>
+                        Sobre o Grêmio
+                    </a>
+                </li>
+                <li class="nav-item fw-bold">
+                    <a href="#eventos" class="nav-link">
+                        <i class="bi bi-calendar-check me-1"></i>
+                        Eventos
+                    </a>
+                </li>
+                <li class="nav-item fw-bold">
+                    <a href="#nossos-produtos" class="nav-link">
+                        <i class="bi bi-card-text me-1"></i>
+                        Nossos produtos
+                    </a>
+                </li>
+                <li class="nav-item fw-bold">
+                    <a href="#fale-conosco" class="nav-link">
+                        <i class="bi bi-chat-left-text me-1"></i>
+                        Fale conosco
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-smooth-scroll="true">
+        <section id="sobre-o-gremio">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="images/slides/gremio.jpg" alt="Estadio do Grêmio">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slides/torcida.jpg" alt="Torcida do Grêmio">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/slides/suarez.jpg" alt="Apresentação do Suaréz">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel"  data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel"  data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="images/escudo.jpg" class="d-block w-100 rounded" alt="Escudo do Grêmio">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre <span class="text-colored">o Grêmio</span></h2>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam sed amet facilis similique odit exercitationem, sapiente quidem adipisci voluptatem labore enim autem accusantium? Soluta, nobis. Voluptatum, debitis. Dolor, sit ut.
+                            </p>
+                            <h3 class="section-title">Sobre <span class="text-colored">a História</span></h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque at, magni commodi eum voluptates veritatis rem sit quam ut temporibus, nulla perferendis suscipit ipsa aut doloribus aliquid omnis nihil id.
+                            </p>
+                            <ul>
+                                <li>Item 1</li>
+                                <li>Item 2</li>
+                                <li>Item 3</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Próximos<span class="text-colored"> Jogos</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="images/eventos/jogo1.png" alt="Fluminense x Grêmio" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">Fluminense x Grêmio</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error magnam libero dicta quod consectetur voluptates distinctio, eaque facere. Fugit alias perspiciatis expedita rerum tenetur porro, optio odit. Eligendi, atque accusamus?
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/eventos/jogo2.png" alt="Palmeiras x Grêmio" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">Palmeiras x Grêmio</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error magnam libero dicta quod consectetur voluptates distinctio, eaque facere. Fugit alias perspiciatis expedita rerum tenetur porro, optio odit. Eligendi, atque accusamus?
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/eventos/jogo3.png" alt="Gremio x Juventude" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">Grêmio x Juventude</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error magnam libero dicta quod consectetur voluptates distinctio, eaque facere. Fugit alias perspiciatis expedita rerum tenetur porro, optio odit. Eligendi, atque accusamus?
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/eventos/jogo4.png" alt="Cruzeiro x Gremio" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">Cruzeiro x Grêmio</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error magnam libero dicta quod consectetur voluptates distinctio, eaque facere. Fugit alias perspiciatis expedita rerum tenetur porro, optio odit. Eligendi, atque accusamus?
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/eventos/jogo5.png" alt="Gremio x São paulo" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">Grêmio x São Paulo</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error magnam libero dicta quod consectetur voluptates distinctio, eaque facere. Fugit alias perspiciatis expedita rerum tenetur porro, optio odit. Eligendi, atque accusamus?
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="images/eventos/jogo6.png" alt="Vitoria x Gremio" class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4">Vitória x Grêmio</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error magnam libero dicta quod consectetur voluptates distinctio, eaque facere. Fugit alias perspiciatis expedita rerum tenetur porro, optio odit. Eligendi, atque accusamus?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="nossos-produtos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">
+                        Nossos <span class="text-colored">Produtos</span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-produtos">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#camisa" class="fw-bold text-start nav-link text-colored active">Camisas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bermuda" class="fw-bold text-start nav-link text-colored">Bermudas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#jaqueta" class="fw-bold text-start nav-link text-colored">Jaquetas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#bone" class="fw-bold text-start nav-link text-colored">Bonés</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#tenis" class="fw-bold text-start nav-link text-colored">Tênis</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="camisa">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/produtos/camisa1.jfif" alt="Camisa tricolor">
+                                        <h5 class="text-colored fw-bold mt-2"></h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/produtos/camisa2.jfif" alt="Camisa branca">
+                                        <h5 class="text-colored fw-bold mt-2"></h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/produtos/camisa3.jfif" alt="Camisa preta">
+                                        <h5 class="text-colored fw-bold mt-2"></h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/produtos/camisa4.jfif" alt="Camisa rosa">
+                                        <h5 class="text-colored fw-bold mt-2"></h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div> 
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/produtos/camisa5.jfif" alt="Camisa de treino">
+                                        <h5 class="text-colored fw-bold mt-2"></h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div> 
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="bermuda">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/produtos/bermuda1.jfif" alt="Bermuda Preta">
+                                        <h5 class="text-colored fw-bold mt-2"></h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/produtos/bermuda2.jfif" alt="Bermuda Azul">
+                                        <h5 class="text-colored fw-bold mt-2"></h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="images/produtos/bermuda3.jfif" alt="Bermuda Cinza">
+                                        <h5 class="text-colored fw-bold mt-2"></h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        </p>
+                                    </div>
+                </div>
+            </div>
+            <div class="tab-pane" id="jaqueta">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img class="d-block w-100" src="images/produtos/jaqueta1.png" alt="Jaqueta preta">
+                        <h5 class="text-colored fw-bold mt-2"></h5>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <img class="d-block w-100" src="images/produtos/jaqueta2.jfif" alt="Jaqueta Cinza">
+                        <h5 class="text-colored fw-bold mt-2"></h5>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <img class="d-block w-100" src="images/produtos/jaqueta3.jfif" alt="Moletom">
+                        <h5 class="text-colored fw-bold mt-2"></h5>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane" id="bone">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img class="d-block w-100" src="images/produtos/bone1.jfif" alt="Bone preto">
+                        <h5 class="text-colored fw-bold mt-2"></h5>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <img class="d-block w-100" src="images/produtos/bone2.jfif" alt="Bone azul">
+                        <h5 class="text-colored fw-bold mt-2"></h5>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <img class="d-block w-100" src="images/produtos/bone3.jfif" alt="Bone do suarez">
+                        <h5 class="text-colored fw-bold mt-2"></h5>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane" id="tenis">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img class="d-block w-100" src="images/produtos/tenis1.jfif" alt="Tênis preto">
+                        <h5 class="text-colored fw-bold mt-2"></h5>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <img class="d-block w-100" src="images/produtos/tenis2.jfif" alt="Tênis Branco">
+                        <h5 class="text-colored fw-bold mt-2"></h5>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <img class="d-block w-100" src="images/produtos/tenis3.jfif" alt="Tênis Azul">
+                        <h5 class="text-colored fw-bold mt-2"></h5>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="fale-conosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colored">conosco</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colored">Seu Nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colored">Seu telefone (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required></textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua teste Exempro n° 145, Bairro Bootstrap - Porto Alegre - RS
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
